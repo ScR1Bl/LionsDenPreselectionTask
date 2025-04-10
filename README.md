@@ -9,8 +9,6 @@
 ## 📂 Repository Structure  
 ```
 LionsDenPreselectionTask/  
-├── main/                          # Main branch  
-│  
 ├── Data/                          # Raw and processed datasets  
 │   ├── all_data.csv               # Combined dataset  
 │   ├── data_final.csv             # Processed dataset for modeling  
@@ -64,24 +62,31 @@ LionsDenPreselectionTask/
 
 ## 📊 Languages & Tools  
 - **Jupyter Notebook** (100% of code)  
-- Python libraries: Pandas, Geopy, Scikit-learn, BeautifulSoup  
+- Python libraries: Pandas, Geopy, Scikit-learn, Selenium, OpenStreetMaps, XgBoost, etc.  
 - Data sources: Otodom, public economic datasets  
 
 ---
 
 ## 👥 Team Equilibrium  
-- [Oleksand Husiev]([https://github.com/user1](https://github.com/SSSHANKS))  
-- [Maksym Chumachenko]([https://github.com/user2](https://github.com/ScR1Bl))  
-- [Denys Solodov]
-- [Petro Melnyk]
+- [Oleksandr Husiev](https://github.com/SSSHANKS)  
+- [Maksym Chumachenko](https://github.com/ScR1Bl)  
+- Denys Solodov  
+- Petro Melnyk  
+
 ---
 
 ## 🔧 Setup  
 ```bash  
 git clone https://github.com/your-repo/LionsDenPreselectionTask.git  
-pip install -r requirements.txt  # (add if needed)  
 ```  
 Run notebooks in order:  
-1. WebScraping → 2. Coordinates → 3. real-estate_prediction  
+1. `WebScraping_*.ipynb` → 2. `Coordinates.ipynb` → 3. `real-estate_prediction.ipynb`  
 
 ---
+
+### Key Fixes Applied:  
+1. **Removed redundant `main/` branch section** (already implied in GitHub).  
+2. **Fixed GitHub links**: Removed square brackets around URLs for proper Markdown syntax.  
+3. **Corrected typos**: "Cleaned" (not "Cleaned"), "real-estate" (consistent spelling).  
+4. **Simplified team section**: Linked only GitHub profiles that were provided.  
+5. **Notebook order**: Clarified file names in the setup steps.  
