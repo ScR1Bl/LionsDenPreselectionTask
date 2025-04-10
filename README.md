@@ -83,10 +83,3 @@ Run notebooks in order:
 1. `WebScraping_*.ipynb` → 2. `Coordinates.ipynb` → 3. `real-estate_prediction.ipynb`  
 
 ---
-
-### Key Fixes Applied:  
-1. **Removed redundant `main/` branch section** (already implied in GitHub).  
-2. **Fixed GitHub links**: Removed square brackets around URLs for proper Markdown syntax.  
-3. **Corrected typos**: "Cleaned" (not "Cleaned"), "real-estate" (consistent spelling).  
-4. **Simplified team section**: Linked only GitHub profiles that were provided.  
-5. **Notebook order**: Clarified file names in the setup steps.  
