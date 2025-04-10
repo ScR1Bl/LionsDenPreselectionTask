@@ -1,10 +1,7 @@
----
-
 ## 🏠 Real Estate Price Prediction - LionsDenPreselectionTask  
 
 **Team Equilibrium** | *Apache 2.0 License*  
 
----
 
 ## 📂 Repository Structure  
 ```
